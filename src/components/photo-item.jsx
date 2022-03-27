@@ -7,8 +7,11 @@ const PhotoItem = ({ item }) => {
       <img src={thumbnailUrl} alt={title} />
       <div>
         <p>Title: {title}</p>
-        <p>AlbumId: {albumId}</p>
-        <p>ID: {id}</p>
+        <p>
+          <span>AlbumId: {albumId} / </span>
+          <span>ID: {id}</span>
+        </p>
+
         <p>
           <a href={url} target="_blank" rel="noopener noreferrer">
             Link

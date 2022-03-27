@@ -32,6 +32,7 @@ const Photos = () => {
     }
     if (res.data.length === 0) {
       alert(`[ ${input} ]에 해당하는 albumId가 없습니다.`);
+      setInput("");
       getDefaultData();
     }
   };
