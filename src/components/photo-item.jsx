@@ -6,7 +6,10 @@ const PhotoItem = ({ item }) => {
     <Article>
       <img src={thumbnailUrl} alt={title} />
       <div>
-        <p>Title: {title}</p>
+        <p>
+          Title: {title.slice(0, 60)}
+          {title.length > 60 && "..."}
+        </p>
         <p>
           <span>AlbumId: {albumId} / </span>
           <span>ID: {id}</span>
