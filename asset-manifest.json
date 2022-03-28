@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/color-chip/static/js/main.ec91df20.js",
+    "main.js": "/color-chip/static/js/main.023d050f.js",
     "index.html": "/color-chip/index.html",
-    "main.ec91df20.js.map": "/color-chip/static/js/main.ec91df20.js.map"
+    "main.023d050f.js.map": "/color-chip/static/js/main.023d050f.js.map"
   },
   "entrypoints": [
-    "static/js/main.ec91df20.js"
+    "static/js/main.023d050f.js"
   ]
 }
